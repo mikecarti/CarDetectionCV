@@ -55,7 +55,7 @@ if uploaded_file is not None:
     with st.spinner(show_time=False):
         print(f"Path to processed video: {processed_video_path}")
 
-        placeholder.write("Converting codex to 264...")
+        placeholder.write("Converting codec to 264...")
         processed_video_264_path = processed_video_path.with_stem(
             processed_video_path.stem + "_264"
         )
