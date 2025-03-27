@@ -208,7 +208,7 @@ def process_video(video_path, model, output_dir="results", show_video=False, sav
 def main():
     # Настройки (можно изменить)
     VIDEO_DIR = "videos"  # Папка с видео
-    MODEL_PATH = 'D://Users//Андрей//Desktop//ncontrol-msi//runs//obb//startup-nano32//weights//last.pt'
+    MODEL_PATH = 'last.pt'
     OUTPUT_DIR = "results"  # Папка для результатов
     SHOW_VIDEO = False  # Показывать ли видео в процессе обработки
     SAVE_VIDEO = True   # Сохранять ли обработанные видео
