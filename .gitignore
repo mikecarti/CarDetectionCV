@@ -1,0 +1,7 @@
+**/__pycache__/ 
+*COCO_to_YOLOv8*/
+*.mp4
+*.pt
+*venv*/
+output*/
+datasets*/
